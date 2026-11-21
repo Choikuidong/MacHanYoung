@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+*.app/
+*.dmg
+*.zip
+Release*/
+
+.env
+.env.*
+*.p12
+*.pfx
+*.key
