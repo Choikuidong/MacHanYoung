@@ -1,15 +1,46 @@
-# 맥한영 · MacHanYoung 1.01
+# 맥한영 · MacHanYoung 1.04
 사과공방 · Apple Craft / 개발자 최귀동
 © 2026 Apple Craft. All rights reserved.
 
 macOS 13 이상, Apple Silicon 및 Intel. Karabiner 없이 동작합니다.
 
 ## 다운로드
-[맥한영 1.01 DMG 다운로드](https://github.com/Choikuidong/MacHanYoung/releases/download/v1.01/MacHanYoung-1.01.dmg)
+[사과공방 홈페이지에서 맥한영 1.04 다운로드](https://applecraft.kr/?view=programs#app-machanyoung)
 
-[릴리스와 소스 ZIP](https://github.com/Choikuidong/MacHanYoung/releases/latest)
+[최신 릴리스와 배포 파일](https://github.com/Choikuidong/MacHanYoung/releases/latest)
 
-전체 소스는 MacHanYoung-1.01-Source.zip에 포함되어 있습니다. 압축을 해제하면 Sources, Resources, Scripts, Tests 및 build.sh가 있습니다.
+전체 소스는 이 저장소의 `MacHanYoung-1.04-Source.zip`에 포함되어 있습니다. 압축을 풀면 Sources, Resources, Scripts, Tests와 build.sh가 있습니다.
+
+## 1.04 변경
+- 메뉴와 설정에서 업데이트 확인
+- 자동 확인 기본 ON, 실행 후 24시간 간격으로 GitHub 최신 정식 릴리스 확인
+- 새 버전·변경 내용 알림, 같은 버전은 자동으로 반복 알림하지 않음
+- 다운로드 안내는 https://applecraft.kr/?view=programs#app-machanyoung 으로 연결
+- DMG 다운로드와 설치는 홈페이지 안내에 따라 사용자가 직접 진행
+- 네트워크 오류·요청 제한·릴리스 미등록 안내, 오래된 버전으로의 다운그레이드 방지
+- 1.04 / 내부 빌드 34
+
+## 1.03 변경
+- Win + ;와 Win + . 모두 같은 특수문자 창을 표시
+- 사용자 제공 참고표의 1,038개 문자와 순서를 반영 (정규화하지 않음)
+- 기본 자음 14개, 쌍자음 ㄲ·ㄸ·ㅃ·ㅆ 및 빈 ㅉ 범주
+- Tab으로 전체 목록 펼치기/접기, 방향키 + Enter와 마우스 선택
+- 작은 화면에서는 전체 목록을 스크롤할 수 있음
+- 페이지 이동은 PageUp/PageDown 또는 이전/다음 버튼
+- 버전 1.03 / 내부 빌드 33
+
+## 1.02 변경
+- 기존 설정 배치를 유지한 녹색 계열 UI
+- 물리 Win + ; 단축키로 기호·이모지·이모티콘 선택
+- 한국어 자음 + 오른쪽 Ctrl로 자음별 기호 선택
+- 두 입력 방식 기본 ON, 각각 설정 가능
+- 숫자 1–9·방향키·Enter·Esc와 Tab/PageUp/PageDown 지원
+- 입력 기록·클립보드 사용 없이 선택 위치를 검증하고 삽입
+- 표시 버전 1.02 / 내부 빌드 32
+
+자음 변환은 AX 텍스트 범위를 제공하는 앱에서 동작합니다. 미지원 앱에서는 기존 한자 변환 옵션을 따릅니다.
+1.03 문자표는 사용자 제공 참고표를 기준으로 합니다. Windows의 모든 버전과 모든 입력기에서 동일한 표시를 보장하지는 않습니다.
+외장 키보드 한정 설정을 따르며, 암호·보안 입력에서는 사용할 수 없습니다.
 
 ## 시작하기
 DMG의 맥한영.app을 응용 프로그램에 옮긴 뒤 실행합니다.
@@ -44,7 +75,7 @@ Ctrl 단축키·키 배치·한영·한자 전환·로그인 자동 실행과 �
 ## 빌드 및 검사
 macOS와 Xcode Command Line Tools가 필요합니다.
 ```sh
-zsh build.sh
+./build.sh
 ./맥한영.app/Contents/MacOS/WinKeys --self-test
 ./맥한영.app/Contents/MacOS/WinKeys --integration-test
 ./맥한영.app/Contents/MacOS/WinKeys --layout-test

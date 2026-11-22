@@ -1,2 +1,2 @@
-258fb49d9719e37b5c37ade4d1a821d64bf9fcfe9d28a9ef609c916cec89b808  MacHanYoung-1.01.dmg
-0fe007dc4214ebc4755218acc3fd3d72e0fc64f45b9db264af6efb4cf73805fc  MacHanYoung-1.01-Source.zip
+b0c1c45ee15a0d3c9f5e781b302eca54c75a8cd27a870c8253813b641b9657ae  MacHanYoung-1.04.dmg
+ad8ab2f650739dab932d872daffd0ca577091923d0a8d8705d51ca9bcf9a13c1  MacHanYoung-1.04-Source.zip
