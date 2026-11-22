@@ -4,6 +4,12 @@
 
 macOS 13 이상, Apple Silicon 및 Intel. Karabiner 없이 동작합니다.
 
+## 카카오페이로 후원하기
+
+카카오톡의 코드스캔으로 아래 QR을 스캔하면 후원할 수 있습니다.
+
+<img src="assets/kakaopay-qr.png" alt="카카오페이 송금 QR" width="320">
+
 ## 다운로드
 [사과공방 홈페이지에서 맥한영 1.04 다운로드](https://applecraft.kr/?view=programs#app-machanyoung)
 
