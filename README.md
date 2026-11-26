@@ -1,4 +1,4 @@
-# 맥한영 · MacHanYoung 1.04
+# 맥한영 · MacHanYoung 1.05
 사과공방 · Apple Craft / 개발자 최귀동
 © 2026 Apple Craft. All rights reserved.
 
@@ -11,11 +11,30 @@ macOS 13 이상, Apple Silicon 및 Intel. Karabiner 없이 동작합니다.
 <img src="assets/kakaopay-qr.png" alt="카카오페이 송금 QR" width="320">
 
 ## 다운로드
-[사과공방 홈페이지에서 맥한영 1.04 다운로드](https://applecraft.kr/?view=programs#app-machanyoung)
+[사과공방 홈페이지에서 맥한영 1.05 다운로드](https://applecraft.kr/?view=programs#app-machanyoung)
 
 [최신 릴리스와 배포 파일](https://github.com/Choikuidong/MacHanYoung/releases/latest)
 
-전체 소스는 이 저장소의 `MacHanYoung-1.04-Source.zip`에 포함되어 있습니다. 압축을 풀면 Sources, Resources, Scripts, Tests와 build.sh가 있습니다.
+전체 소스는 이 저장소의 `MacHanYoung-1.05-Source.zip`에 포함되어 있습니다. 압축을 풀면 Sources, Resources, Scripts, Tests와 build.sh가 있습니다.
+
+## 1.05 변경
+- 설정 맨 아래에 원본 카카오페이 QR과 후원 안내 추가
+- 한글 프로젝트의 다음 개발을 응원하는 문구와 홈페이지 링크
+- 후원은 자유로운 선택이며 모든 기능은 무료
+- 기존 키보드·한영·한자·특수문자·스크롤·업데이트 확인 기능 유지
+- 표시 버전 1.05 · 내부 빌드 35
+
+<img src="MacHanYoung-1.05-Settings.png" alt="맥한영 1.05 설정 하단의 후원 안내 UI" width="600">
+
+### 한글을 위한 다음 개발을 응원해 주세요.
+우리에게 필요한 한글 도구와 한글을 더 편리하게 사용할 수 있는 프로그램을 만들고 있습니다.
+
+한글 중심의 프로젝트는 해외 후원을 받기 어려워 여러분의 응원이 더욱 소중합니다.
+작은 후원이 더 편리한 프로그램을 꾸준히 만드는 힘이 됩니다.
+
+후원은 자유로운 선택이며, 후원 여부와 관계없이 모든 기능을 무료로 사용할 수 있습니다.
+
+[사과공방 카카오페이 후원 안내](https://applecraft.kr/?view=support)
 
 ## 1.04 변경
 - 메뉴와 설정에서 업데이트 확인
